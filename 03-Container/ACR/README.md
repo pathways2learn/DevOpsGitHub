@@ -24,7 +24,9 @@ You can refer this tutorial [Tutorial: Create an Azure container registry and pu
 6. Now that you've tagged the image with the full login server name of your private registry, you can push the image to the registry with the docker push command. Replace <acrLoginServer> with the full login server name you obtained in the earlier step. `docker push <acrLoginServer>/<imageName>:<versionNumber>`.
 ![image](https://user-images.githubusercontent.com/61077834/153704487-4ef8088d-24dc-498a-869e-eedc42986b59.png)
 
-  
+### Results
+![image](https://user-images.githubusercontent.com/61077834/153704701-e0da66b9-6e88-4f21-913d-363b68155065.png)
+
 ### Dependencies
 
 - Docker CLI
