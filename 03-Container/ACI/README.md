@@ -21,3 +21,10 @@ Once the code is ran successfully, you should be able to see the agent in your a
 #### Notes
 - Sometimes you may not be able to deploy containers on a region due to availability or resource constraints. Please feel free to change the azure region in your configuration parameters and try to deploy the ACI in some other region.
 ![image](https://user-images.githubusercontent.com/61077834/153704148-debcd785-0752-4e24-8809-bfc6b0d0a12a.png)
+
+- The identity you use to deploy ACI should have permissions to pull the images from the ACR. Else the ACI won't be able to pull the images. Please refer the Microsoft Documentation for more information and understanding limitations.
+- You may the see the container in running state but don't see an agent in the Azure DevOps agent pool. This could be due to delays in communication between the agent or the incorrect agent pool names.
+
+- You container might fail to start if the parameters related to Azure DevOps are incorrect. The container in the below screenshot fails to start as the PAT used by the container has been revoked.
+![image](https://user-images.githubusercontent.com/61077834/153704831-33bcf40f-754e-4769-8f04-96f3454df71f.png)
+
