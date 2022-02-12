@@ -23,7 +23,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     software-properties-common \
   && rm -rf /var/lib/apt/lists/*
 
-RUN wget -q https://packages.microsoft.com/config/ubuntu/20.04/packages-microsoft-prod.deb
+RUN wget -q https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb
 
 RUN dpkg -i packages-microsoft-prod.deb
 
