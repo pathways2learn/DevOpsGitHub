@@ -1,10 +1,10 @@
 # ADO Agents Vs GitHub Runners
 
 ### VM
-- Gayatri
+- Link to VM content
 
 ### VMSS
-- Ruchita
+- Link to VMSS content
 
 ### ACI
-- Deiva
+https://github.com/pathways2learn/DevOpsGitHub/tree/main/03-Container
