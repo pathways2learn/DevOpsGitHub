@@ -40,7 +40,7 @@ For more details on the above parameters and why it is required, refer <a href='
 </br>
 
 ### Part 2: Configure Agent Pool to use VMSS agents
-1) Go to organisation setting/project setting and select Agent Pools. Create new agent pool and select 'Azure virtual machine scale set'. Select the appropriate subscription and _Authorize_. If you have an existing service connection you can choose that from the list instead of the subscription.</br>
+1) Go to organisation setting/project setting and select Agent Pools. Create new agent pool and select 'Azure virtual machine scale set'. Select the appropriate subscription and _Authorize_. If you have an existing service connection you can choose that from the list instead of the subscription. If you are not able to view your vmss then check your your service connection else refer <a href='https://docs.microsoft.com/en-us/azure/devops/pipelines/release/azure-rm-endpoint?view=azure-devops#insufficient-privileges-to-complete-the-operation'>troubleshoot.</a></br>
 ![image](https://user-images.githubusercontent.com/57246376/153708379-dc3d7938-beb1-4f4e-9252-5c9ad17b98e3.png)
 2) To configure a scale set agent pool, you must have either _Owner_ or _User Access Administrator_ permissions on the selected subscription.
 3) Fill the below parameters and click _Create_:
