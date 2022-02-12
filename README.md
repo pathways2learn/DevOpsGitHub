@@ -4,7 +4,7 @@
 - Link to VM content
 
 ### VMSS
-- Link to VMSS content
+https://github.com/pathways2learn/DevOpsGitHub/tree/main/02-VMSS
 
 ### ACI
 https://github.com/pathways2learn/DevOpsGitHub/tree/main/03-Container
