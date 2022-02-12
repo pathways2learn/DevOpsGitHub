@@ -67,6 +67,9 @@ For more details on the above parameters and why it is required, refer <a href='
 
 Due to the sampling size of 5 minutes, it is possible that all agents can be running pipelines for a short period of time and no scaling out will occur.
 
+Check the Diagnostics tab in the VMSS agent pool to view the scale in and out logs.
+![image](https://user-images.githubusercontent.com/57246376/153710008-6cb62c0e-79aa-47b0-8818-be0897b6d576.png)
+
 
 For more details refer the <a href='</a>https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/scale-set-agents?view=azure-devops'>official documentation.</a>
 
