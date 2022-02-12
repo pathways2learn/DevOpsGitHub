@@ -29,3 +29,5 @@ az vmss create \
 --os-disk-caching readonly \
 --load-balancer ""
 ```
+
+For more details on the above parameters and why it is required, refer <a href='https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/scale-set-agents?view=azure-devops#create-the-scale-set'>here.</a>
