@@ -44,12 +44,11 @@ Here we have used MobaXterm and entered our details under Advanced settings in a
  
  2) Download the Agent , Create Agent folder <myagent>.
   
- 3) Run ./config.sh for configuration
-This step would ask for details
-Server URL : https://dev.azure.com/{your-organization}
-PAT Token : Enter the PAT token from DevOps portal 
-Follow link to create PAT 
-<a href='https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux?view=azure-devops#authenticate-with-a-personal-access-token-pat'>here.</a>
+ 3) Run ./config.sh for configuration </br>
+This step would ask for details </br>
+Server URL : https://dev.azure.com/{your-organization} </br>
+PAT Token : Enter the PAT token from DevOps portal </br>
+Follow link to create PAT <a href='https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux?view=azure-devops#authenticate-with-a-personal-access-token-pat'>here.</a>
   
  4) Enter the Agent Pool Name 
  5) Enter the Agent Name (Name of the VM created in Part 1) 
@@ -65,16 +64,7 @@ Execute ./run.sh
   
   ![image](https://user-images.githubusercontent.com/94544313/153749540-589d94c5-8452-4155-af79-bb97b5c3f21a.png)
 
-  
-
-![image](https://user-images.githubusercontent.com/94544313/153748540-7bb74776-2dac-40bf-ab66-1ed71ad23186.png)
-
-  
-
-
-
-
-For more details refer the <a href='</a>https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/scale-set-agents?view=azure-devops'>official documentation.</a>
+For more details refer the <a href='</a>https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux?view=azure-devops#authenticate-with-a-personal-access-token-pat'>official documentation.</a>
 
 
 
