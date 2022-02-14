@@ -19,7 +19,7 @@ az group create \
 4) Create a virtual machine scale set in your resource group. In this example the UbuntuLTS VM image is specified.</br>
 ```
 az vmss create \
---name vmssagentspool \
+--name vmssagentspooldemo \
 --resource-group vmssagents \
 --image UbuntuLTS \
 --vm-sku Standard_D2_v3 \
