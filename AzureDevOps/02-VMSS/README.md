@@ -7,9 +7,9 @@ In this example we will be deploying a Linux VMSS agent.
 
 ### Part 1: Follow the below steps to deploy a VMSS using Azure CLI
 
-1) Browse to cloud shell at https://shell.azure.com/.
+1) Browse to cloud shell at https://shell.azure.com/. The below example uses bash script.
 2) Set the desired subscription where you want to deploy </br>
-`az account set -s <your subscription ID>`
+`az account set -s <your subscription ID or Name>`
 3) Create a resource group for your VMSS </br>
 ```
 az group create \
