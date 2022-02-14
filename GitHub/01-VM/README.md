@@ -9,9 +9,9 @@ In this example we will be deploying a Linux VM agent.
 
 ### Part 1: Follow the below steps to deploy a Linux VM  using Azure CLI
 
-1) Browse to cloud shell at https://shell.azure.com/.
+1) Browse to cloud shell at https://shell.azure.com/. In this demo we are using Powershell.
 2) Set the desired subscription where you want to deploy </br>
-`az account set -s <your subscription ID>`
+`az account set -s <Name or ID of your subscription>`
 3) Create a resource group for your VMSS </br>
 ```
 az group create \
