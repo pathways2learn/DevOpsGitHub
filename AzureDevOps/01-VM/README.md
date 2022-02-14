@@ -11,7 +11,7 @@ In this example we will be deploying a Linux VM agent.
 1) Browse to cloud shell at https://shell.azure.com/. In this demo we are using Powershell.
 2) Set the desired subscription where you want to deploy </br>
 `az account set -s <Name or ID of your subscription>`
-3) Create a resource group for your VMSS </br>
+3) Create a resource group for your VM </br>
 ```
 az group create --location westus --name vmagentrg
 ```
