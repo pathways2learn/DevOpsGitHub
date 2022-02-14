@@ -13,9 +13,7 @@ In this example we will be deploying a Linux VM agent.
 `az account set -s <Name or ID of your subscription>`
 3) Create a resource group for your VMSS </br>
 ```
-az group create \
---location westus \
---name vmagentrg
+az group create --location westus --name vmagentrg
 ```
 4) Create a virtual machine in your resource group. In this example the UbuntuLTS VM image is specified.</br>
 ```
