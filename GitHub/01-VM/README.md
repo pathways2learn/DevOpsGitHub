@@ -60,7 +60,7 @@ Here we have used MobaXterm and entered our details under Advanced settings in a
  ![image](https://user-images.githubusercontent.com/94544313/153847748-651d411c-5f4d-4c18-9bfa-122edc4bc5e7.png)   
   
 
-For more details refer the <a href='</a>https://docs.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners</a>'
+For more details refer the <a href='</a>https://docs.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners'>official documentation.</a>
 
 
 
