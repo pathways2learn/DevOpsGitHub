@@ -48,10 +48,10 @@ Here we have used MobaXterm and entered our details under Advanced settings in a
  1) Login to the VM
  2) Follow the steps from Part2 step2. The steps would run the application in an interactive mode</br>
  
-               Download , extract the installer </br>
-               Create the runner and start the configuration experience </br> 
+               Download , extract the installer 
+               Create the runner and start the configuration experience  
               
- 3) Alternatively , in this demo we would be running it as a service </br>
+ 3) Alternatively , you can run it as a service </br>
    `sudo ./svc.sh install` </br>
    `sudo ./svc.sh start` </br>
    
