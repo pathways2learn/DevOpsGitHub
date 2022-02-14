@@ -45,10 +45,12 @@ Here we have used MobaXterm and entered our details under Advanced settings in a
 
    ![image](https://user-images.githubusercontent.com/94544313/153846629-8e376f5b-9285-4bac-a4f5-359cc6ace8f4.png)  
  
- ### Part 3: Configure the Application inside the Runner
+ ### Part 3: Configure the Self-Hosted Runner Application inside the VM
  
  1) Login to the VM
  2) Follow the steps from Part2 step2. The steps would run the application in an interactive mode</br>
+               Download , extract the installer </br>
+               Create the runner and start the configuration experience </br>               
  3) Alternatively , in this demo we would running it as a service </br>
    `sudo ./svc.sh install` </br>
    `sudo ./svc.sh start` </br>
