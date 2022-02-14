@@ -61,8 +61,15 @@ Follow link to create PAT <a href='https://docs.microsoft.com/en-us/azure/devops
  6) Enter the work folder ( can be _work)
  4) Run the Agent Interactively, for the Agent to be online 
 Execute ./run.sh 
-  
+
   ![image](https://user-images.githubusercontent.com/94544313/153749540-589d94c5-8452-4155-af79-bb97b5c3f21a.png)
+ 
+ 5) Alternatively one can run the Agent as a service too.</br>
+ 
+   Execute </br>
+     `sudo ./svc.sh install `</br>
+     `sudo ./svc.sh start`</br>
+  
 
 For more details refer the <a href='</a>https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux?view=azure-devops#authenticate-with-a-personal-access-token-pat'>official documentation.</a>
 
