@@ -47,7 +47,7 @@ Here we have used MobaXterm and entered our details under Advanced settings in a
  3) Run ./config.sh for configuration </br>
 This step would ask for details </br>
 Server URL : https://dev.azure.com/{your-organization} </br>
-PAT Token : Enter the PAT token from DevOps portal </br>
+PAT Token : Enter the PAT token from DevOps portal , PAT token with Agent Pool(Read & Manage) </br>
 Follow link to create PAT <a href='https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux?view=azure-devops#authenticate-with-a-personal-access-token-pat'>here.</a>
   
  4) Enter the Agent Pool Name 
