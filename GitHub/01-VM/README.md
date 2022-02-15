@@ -64,7 +64,5 @@ Here we have used MobaXterm and entered our details under Advanced settings in a
 
 For more details refer the <a href='</a>https://docs.github.com/en/actions/hosting-your-own-runners/adding-self-hosted-runners'>official documentation.</a>
 
-
-
-
-
+### Automation
+- To automate the configuration of self-hosted VM runners, please refer the sample script available in the GitHub action repo https://github.com/actions/runner/blob/main/docs/automate.md.
