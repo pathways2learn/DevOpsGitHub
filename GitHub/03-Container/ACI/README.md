@@ -10,7 +10,7 @@ Update the inputs in `config.auto.tfvars` as needed and use terraform to deploy 
 - GitHub
   - Enterprise/Organization/Repository URL where the runner needs to be added
   - Agent registration token
-    > The registration token we use to register the runner expires after one hour.
+    > The registration token we use to register the runner expires after one hour. So, there is no point in using it unless we have an automated solution which can fetch the registration token during the time of the container creation. GitHub provides REST API for this functionality so that we can use our access token and get the registration token. Please explore it to build a more robust and automated container runner solution. As this is a demo, we are just using the registration token to show how the runner works on a container.
 
 ### Results
 Once the code is ran successfully, you should be able to see the runner in your GitHub Enterprise/Organization/Repository.
